@@ -1,0 +1,4 @@
+FROM python:3.9.14-alpine3.16 
+RUN pip install \
+pymysql requests urllib json \
+-i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
